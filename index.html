@@ -1,0 +1,25 @@
+<!doctype.html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="css">
+	<meta name="keywords" content="css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>js-rv-find reverse number</title>
+</head>
+<body>
+
+
+<script>
+
+ let a=parseInt(prompt("enter a number to revese"));
+	 let c=0;
+	 while(a>0){
+		let b=a%10;
+		a=(a-b)/10;
+		c=c*10+b;
+	 }
+	 console.log(c);
+</script>
+</body>
+</html>
